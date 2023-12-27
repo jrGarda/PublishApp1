@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icons/add_box_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/delete_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/edit_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/library_books_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/newspaper_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/relax_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/shopping_cart_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/style_FILL0_wght400_GRAD0_opsz24.svg</file>
+  </qresource>
+</RCC>

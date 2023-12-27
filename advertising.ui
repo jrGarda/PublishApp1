@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread: pad, x1: 1, y1: 1, x2: 0, y2: 0, stop: 0 rgba(255, 0, 0, 255), stop: 0.427447 rgba(0, 128, 128, 255), stop: 1 rgba(255, 255, 0, 255));
+font-family:Noto-Sans SC;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(255,255,255,30);
+border: 1px solid rgba(255,255,255,40);
+border-radius: 7px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>20</y>
+        <width>321</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="txt_Adv">
+         <property name="styleSheet">
+          <string notr="true">color:black;
+font-weight:bold;
+font-size:20pt;
+background-color:none;
+border:none;
+</string>
+         </property>
+         <property name="text">
+          <string>Advertising</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="choose_cat_type_Adv">
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+font-size:16pt;
+color:black;
+}
+
+QComboBox:item {
+color:black;
+}</string>
+         </property>
+         <property name="currentIndex">
+          <number>-1</number>
+         </property>
+         <property name="placeholderText">
+          <string>Choose category</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Book</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Magazine</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Booklet</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="choose_name_Adv">
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+font-size:16pt;
+color:black;
+}
+
+QComboBox:item {
+color:black;
+}</string>
+         </property>
+         <property name="currentIndex">
+          <number>-1</number>
+         </property>
+         <property name="placeholderText">
+          <string>Choose category</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Mobi-Dick</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Harry-Potter</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Kobzar</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>New Times</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Galka</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rada</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Glovo</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Blago</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Ratusha</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="choose_Adv">
+         <property name="styleSheet">
+          <string notr="true">QComboBox {
+font-size:16pt;
+color:black;
+}
+
+QComboBox:item {
+color:black;
+}</string>
+         </property>
+         <property name="currentIndex">
+          <number>-1</number>
+         </property>
+         <property name="placeholderText">
+          <string>Advertising</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="amount_Adv">
+         <property name="styleSheet">
+          <string notr="true">font-size:16pt;
+color:black;
+padding-left:10px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Amount</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="contacts_Adv">
+         <property name="styleSheet">
+          <string notr="true">font-size:16pt;
+color:black;
+padding-left:10px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Contacts</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_Adv">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    color: black;
+    background-color: rgba(255, 255, 255, 30);
+    border: 1px solid rgba(255, 255, 255, 40);
+    border-radius: 7px;
+    font-weight:bold;
+    width: 170px;
+    height: 50px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 70);
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Save</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res-adv-rc.qrc">
+           <normaloff>:/icons/icons/add_box_FILL0_wght400_GRAD0_opsz24.svg</normaloff>:/icons/icons/add_box_FILL0_wght400_GRAD0_opsz24.svg</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res-adv-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
